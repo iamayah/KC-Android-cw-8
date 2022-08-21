@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE4E4"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:id="@+id/itemimageview"
+        android:layout_width="207dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="397dp"
+        app:srcCompat="@drawable/cheese" />
+
+    <TextView
+        android:id="@+id/itemtextview"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="339dp"
+        android:text="CHEESE"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/iteminfo"
+        android:layout_width="wrap_content"
+        android:layout_height="229dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="52dp"
+        android:text="delicious food and drinks from our restaurant ready to get delivered to you within less than an hour! order now for a good price and a good quality, you'll never regret it! our packaging is eco friendly, no plastic usage. thanks for visiting our app!"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/itempricee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="298dp"
+        android:text="price"
+        android:textSize="20sp" />
+</RelativeLayout>
